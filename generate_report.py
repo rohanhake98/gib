@@ -79,7 +79,7 @@ def create_research_report():
         doc.paragraphs[-1].alignment = WD_ALIGN_PARAGRAPH.CENTER
     
     doc.add_paragraph('\n' * 2)
-    doc.add_paragraph('April 30, 2026\nProject: GIB-RECOVERY-2026\nPrepared for: Global Biodiversity Policy Forum').alignment = WD_ALIGN_PARAGRAPH.CENTER
+    doc.add_paragraph('April 30, 2026\nProject: GIB-RECOVERY-2026').alignment = WD_ALIGN_PARAGRAPH.CENTER
     doc.add_page_break()
 
     # --- Table of Contents ---
@@ -280,10 +280,9 @@ def create_digital_twins():
             <div class="cover-subtitle">A Multi-Decadal Analysis of Demographic Collapse, Anthropogenic Pressures,<br>and the 2026 "Jumpstart" Recovery Milestone</div>
             <div class="cover-image"><img src="great indian bustard.jpg"></div>
             <div class="cover-info">
-                April 30, 2026<br>
-                Project: GIB-RECOVERY-2026<br>
-                Prepared for: Global Biodiversity Policy Forum
-            </div>
+                 April 30, 2026<br>
+                 Project: GIB-RECOVERY-2026
+             </div>
         </div>
 
         <div class="page-break"></div>
