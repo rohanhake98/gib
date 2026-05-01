@@ -10,8 +10,12 @@ As of April 2026, the GIB population is estimated at **130 ±21 wild** and **79 
 - **Status**: Critically Endangered.
 
 ## 3. Historical and Current Distribution
-- **Range**: Contracted from 11 states to primarily the Thar Desert (Rajasthan).
-- **Core Area**: Desert National Park (DNP), Jaisalmer.
+The GIB has undergone a dramatic range contraction. Once found across 11+ Indian states, its range has shrunk by 90%.
+- **Rajasthan**: ~100-150 birds (Thar Desert stronghold).
+- **Gujarat**: ~5-20 birds (Kachchh/Naliya).
+- **Other Pockets**: Maharashtra, Karnataka, and AP (tiny, fragmented groups).
+
+![Range Contraction Map](output_visuals/range_contraction_map.png)
 
 ## 4. Demographic Analysis (1969-2026)
 ![Population Trend](output_visuals/pop_trend_ci.png)
@@ -33,7 +37,7 @@ As of April 2026, the GIB population is estimated at **130 ±21 wild** and **79 
 - **Status**: Schedule I WPA 1972.
 
 ## 8. Ex-Situ Milestones
-- **Jumpstart**: 770km egg translocation success.
+- **Jumpstart**: 770km egg translocation success in March 2026.
 - **AI**: 12 chicks produced via Artificial Insemination in 2025.
 
 ## 9. India vs. World
@@ -45,4 +49,4 @@ As of April 2026, the GIB population is estimated at **130 ±21 wild** and **79 
 3. Community "Godawan Mitra" expansion.
 
 ## 11. References
-- WII (2025), SC India (2025), Mongabay (2026).
+- Dutta, S., et al. (2010); MoEFCC (2025); SC India (2025); WWF-India (2026).
