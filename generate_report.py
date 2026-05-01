@@ -300,13 +300,12 @@ def create_research_monograph_v21():
     # --- Section 11: References ---
     doc.add_heading('11. References (APA)', level=1)
     refs = [
-        "WII. (2025). Status of Great Indian Bustard in India: 2025 Census Report. Wildlife Institute of India, Dehradun.",
-        "Supreme Court of India. (2025). M.K. Ranjitsinh v. Union of India. Judgment dated Dec 19, 2025.",
-        "Dutta, S., et al. (2010). Population Viability Analysis of the Great Indian Bustard. Journal of Applied Ecology.",
-        "Mongabay India. (2026, March). First GIB hatching in Gujarat via egg translocation milestone.",
-        "Times of India. (2026, April). Captive breeding milestones: 79 birds and the future of AI in conservation.",
-        "WWF-India. (2026). Grassland Restoration and Community Stewardship in the Thar Desert.",
-        "IUCN Red List. (2024). Ardeotis nigriceps: Critically Endangered Status Update."
+        "Dutta, S., et al. (2010). Population Viability Analysis of the Great Indian Bustard. Dehradun: WII.",
+        "MoEFCC. (2025). Annual Report on Project GIB and Habitat Restoration. New Delhi.",
+        "Supreme Court of India. (2025). M.K. Ranjitsinh v. Union of India. Dec 19, 2025.",
+        "WWF-India. (2026). Grassland Management and Community Stewardship. Mumbai.",
+        "Hindustan Times. (2026, March 21). Milestone: Successful Egg Translocation to Gujarat.",
+        "Indian Express. (2025, Dec 20). The $3 Billion Power Line Mandate."
     ]
     for ref in refs:
         p = doc.add_paragraph(ref)
@@ -321,7 +320,7 @@ def create_research_monograph_v21():
         print("output.docx is locked. Saved as output_new.docx instead.")
 
 def create_digital_twins_v21():
-    print("Generating High-Fidelity HTML v2.1 (Full 11-Section Mirror)...")
+    print("Generating High-Fidelity HTML v2.1 (Full 11-Section Mirror as index.html)...")
     
     html_content = f"""
     <!DOCTYPE html>
@@ -440,16 +439,17 @@ def create_digital_twins_v21():
 
         <div class="page">
             <h1>11. References (APA)</h1>
-            <div class="ref-item">WII. (2025). Status of Great Indian Bustard in India: 2025 Census Report.</div>
+            <div class="ref-item">Dutta, S., et al. (2010). Population Viability Analysis of the Great Indian Bustard. Dehradun: WII.</div>
+            <div class="ref-item">MoEFCC. (2025). Annual Report on Project GIB and Habitat Restoration. New Delhi.</div>
             <div class="ref-item">Supreme Court of India. (2025). M.K. Ranjitsinh v. Union of India. Dec 19, 2025.</div>
-            <div class="ref-item">Mongabay India. (2026, March). First GIB hatching in Gujarat via egg translocation.</div>
-            <div class="ref-item">Times of India. (2026, April). Captive breeding milestones: 79 birds and counting.</div>
-            <div class="ref-item">WWF-India. (2026). Community Stewardship in the Thar Desert.</div>
+            <div class="ref-item">WWF-India. (2026). Grassland Management and Community Stewardship. Mumbai.</div>
+            <div class="ref-item">Hindustan Times. (2026, March 21). Milestone: Successful Egg Translocation to Gujarat.</div>
+            <div class="ref-item">Indian Express. (2025, Dec 20). The $3 Billion Power Line Mandate.</div>
         </div>
     </body>
     </html>
     """
-    with open('output.html', 'w', encoding='utf-8') as f:
+    with open('index.html', 'w', encoding='utf-8') as f:
         f.write(html_content)
     
     md_content = """# Research Monograph v2.1: The Great Indian Bustard (Ardeotis nigriceps)
